@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "mfmbarber\\PHPHelpers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "mfmbarber\\PHPHelpers\\Tests\\": "tests/"
+        }
+    }
+}
