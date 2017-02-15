@@ -47,7 +47,7 @@ class XMLArray {
         $that_properties = $comp->get();
 
         // Manipulate the ignoreKeys a bit
-        $ignoreKeys = $this->_configureIgnore($ignoreKeys);
+        $ignoreKeys = $this->_confIgnore($ignoreKeys);
 
         return count($this->_recursiveArrayDiff($this_properties, $that_properties, $ignoreKeys)) === 0;
     }
